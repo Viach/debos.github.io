@@ -1,10 +1,10 @@
 # viach.github.io
 
 
-live pet-projects:
+Live pet-projects:
 
-#http://todo.debos.net/
+http://todo.debos.net/   Django, DRF, AngularJS, Bootstrap
 
-#http://debos.net/
+http://debos.net/        Django, JQuery, UIkit
 
-#http://tomi.pp.ua/
+http://tomi.pp.ua/       Flask, UIkit
