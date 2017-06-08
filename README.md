@@ -3,7 +3,7 @@
 
 Live pet-projects:
 
-http://gb.debos.net/     Flask, FLask-Restful, AngularJS, Materialize
+http://gb.debos.net/     Flask, FLask-Restful, Vue.JS, Bootstrap
 
 http://leoyas.debos.net/ Django, UIkit
 
