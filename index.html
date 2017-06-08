@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Live pet-projects</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="static/project.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
 </head>
 <body>
-<div class="container">
+<header>
+    <nav class="row teal">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">viach.github.io</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#contact"></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main class="container">
     <h4><a href="https://github.com/Viach" target="_blank">Github repositories</a></h4>
     <h4>Live pet-projects:</h4>
-    <ul> 
+    <ul>
         <li>
-            <a href="http://gb.debos.net/" target="_blank">http://gb.debos.net/</a> Flask, FLask-Restful, Vue.JS, Bootstrap
+            <a href="http://gb.debos.net/" target="_blank">http://gb.debos.net/</a> Flask, FLask-Restful, Vue.JS,
+            Bootstrap
         </li>
         <li>
             <a href="http://leoyas.debos.net/" target="_blank">http://leoyas.debos.net/</a> Django, UIkit
@@ -30,7 +47,21 @@
             <a href="http://tomi.pp.ua/" target="_blank">http://tomi.pp.ua/</a> Flask, UIkit
         </li>
     </ul>
-</div>
-<script type="text/javascript" src="js/js.js"></script>
+</main>
+<footer class="page-footer teal">
+    <div class="container">
+        <div class="row">
+            <a class="chip teal lighten-5 right z-depth-2"
+               href="https://www.linkedin.com/in/viach-b/"><i
+                    class="">LinkedIn</i></a>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 DebOS
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="static/project.js"></script>
 </body>
 </html>
